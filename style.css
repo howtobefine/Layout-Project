@@ -1,0 +1,289 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    font-family: PingFangTC-Regular, sans-serif !important;
+}
+
+.wrap {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0 18px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #3F5D45;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 28px;
+}
+
+.nav a:hover {
+    opacity: 0.6;
+}
+
+.logo {
+    width: 220px;
+}
+
+.header {
+    margin-bottom: 60px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category {
+    width: 300px;
+}
+
+.category h1 {
+    background-color: #3F5D45;
+    color: #EAF0ED;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.category a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3F5D45;
+    padding: 20px;
+    border: 1px solid #EAF0ED;
+}
+
+.category a:hover {
+    color: #3F5D45;
+    background-color: #EAF0ED;
+}
+
+.product_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 620px;
+}
+
+.product_item{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.tag{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    padding: 10px 12px 10px 10px;
+    background-color: #3F5D45;
+    color: #EAF0ED;
+    writing-mode: vertical-lr;
+}
+
+.heart{
+    position: absolute;
+    top: 19px;
+    right: 22px;
+}
+
+.product_body{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #3F5D45;
+}
+
+.product_body h2{
+    width: 173px;
+    height: 56px;
+    border: 1px solid #EAF0ED;
+    text-align: center;
+    line-height: 56px;
+    border-top: none;
+}
+
+.product_body span{
+    width: 127px;
+    height: 56px;
+    border: 1px solid #EAF0ED;
+    text-align: center;
+    line-height: 56px;
+    font-weight: bold;
+    border-left: none;
+    border-top: none;
+}
+
+.btn_addChart{
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    line-height: 65px;
+    background-color: #EAF0ED;
+    color: #3F5D45;
+    font-weight: bold;=
+}
+
+.btn_addChart:hover{
+    background-color: #3F5D45;
+    color: #EAF0ED;
+}
